@@ -1,0 +1,122 @@
+header{
+    background-image: url(../assets/concesionaria.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: auto;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#encabezado{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#navegacionHeader{
+    margin-right: 40px;
+    margin-top: 40px;
+}
+
+#logo{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+header li a{
+    color: white;
+    text-decoration: none;
+    display: inline;
+    margin-right: 10px;
+}
+
+li{
+    display: inline-block;
+    list-style-type: none; 
+}
+
+h1{
+    color: white;
+    width: 500px;
+    margin-left: 40px;
+    margin-bottom: 100px;
+    line-height: 60px;
+}
+
+#divisionMain{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.mainArticle{
+    border: 1px solid rgba(80, 80, 80, 0.124);
+    width: 400px;
+    background-color: rgba(80, 80, 80, 0.024);
+    margin: 5px 20px;
+    height: 300px;
+
+}
+
+.mainTexto{
+    padding-left: 10px;
+    font-size: 17px;
+    padding-right: 25px;
+    line-height: 30px;
+}
+
+.mainPrecio{
+    padding-left: 10px;
+    font-size: 17px;
+    padding-right: 25px;
+    color: green;
+    font-weight: bold;
+}
+
+article ul {
+    text-align: center;
+    padding: 0;
+    margin-bottom: 35px;
+}
+
+.iconos{
+
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+article a{
+    
+    text-align: center;
+    background-color: orange;
+    text-decoration: none;
+    color: white;
+    padding: 10px 146px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 500px) {
+
+    #encabezado{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #navegacionHeader{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+h2{
+  text-align: center;
+}
